@@ -1,0 +1,10 @@
+<?php
+return [
+    'database' => '',
+    'password' => '',
+    'username' => '',
+    'host'     => '',
+    'mailgun-key' => '',
+    'mailgun-api' => '',
+    'recapcha'    => '',
+];

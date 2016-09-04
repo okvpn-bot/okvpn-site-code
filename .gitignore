@@ -1,0 +1,17 @@
+application/cache/*
+application/logs/*
+modules
+vendor
+.idea
+sftp-config.json
+composer.lock
+application/out/*
+application/config/parameters.php
+*.log
+*~
+*.swp
+*.test
+*.mwb
+*.bak
+var
+!.gitkeep
