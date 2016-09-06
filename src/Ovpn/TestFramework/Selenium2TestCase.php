@@ -8,12 +8,7 @@ use Ovpn\Tests\Selenium\Page\Login;
 
 /**
  * Class Selenium2TestCase
- *
- * Basic Usage. Run tests:
- *
- * java -jar selenium-server-standalone-***.jar -role hub
- * phantomjs --webdriver=8080 --webdriver-selenium-grid-hub=http://127.0.0.1:4444
- *
+ * 
  * @package Ovpn\TestFramework
  */
 abstract class Selenium2TestCase extends \PHPUnit_Extensions_Selenium2TestCase
