@@ -138,8 +138,8 @@ abstract class Selenium2TestCase extends \PHPUnit_Extensions_Selenium2TestCase
      */
     public function login($username = null, $password = null)
     {
-        $username = $username ?? 'tsykun314@gmail.com';
-        $password = $password ?? 'php123456';
+        $username = $username ?? TEST_NAME;
+        $password = $password ?? TEST_PASS;
 
         $login = new Login($this);
         $login->login()
